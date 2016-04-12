@@ -1,0 +1,18 @@
+def old ():
+    print ("Old Macdonald had a farm, EIEIO")
+
+def McD (n, s):
+    old()
+    print ("and on his farm he had a " + n + " EIEIO")
+    
+    print ("whith a " + s + " " + s + " here, and a " + s + "  there")
+    print ("here a " + s + " there a " + s + " everywhere a "  + s + " " + s)
+    old()
+    print ("\n\n")
+    
+#MAIN PROGRAM
+McD ("cat", "meow")
+McD ("skunk", "pu")
+
+animals = ["cat", "dog", "skunk" ]
+sounds = ["meow", "rough", "pu" ]
