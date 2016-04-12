@@ -11,8 +11,9 @@ def McD (n, s):
     print ("\n\n")
     
 #MAIN PROGRAM
-McD ("cat", "meow")
-McD ("skunk", "pu")
 
-animals = ["cat", "dog", "skunk" ]
-sounds = ["meow", "rough", "pu" ]
+animals = ["cat", "dog", "skunk", "cow", "crow"]
+sounds = ["meow", "rough", "pu", "moo", "caw"]
+
+for i in range(len(animals)):
+    McD (animals[i], sounds[i])
